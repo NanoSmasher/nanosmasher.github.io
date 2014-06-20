@@ -1,4 +1,4 @@
-var about = 'PROGRAM: <br /> &#8195; Displays advantages of two competing trigger ratios <br /><br /> ASSUMPTIONS MADE: <br /> &#8195; No stand triggers <br /> &#8195; Opponent lets one attack through <br /> &#8195; No effects <br /> &#8195; 2/2/2 field <br /> &#8195; Deck is sufficiently randomized <br /> &#8195; Opponent guards optimally <br /><br /> MADE BY: <br /> &#8195; Brampton Booster <br /> &#8195; Copyright 2014 (c) MIT License <br /> <br />LINKS: <br /> &#8195; <a href="http://bramptonbooster.wordpress.com">My Vanguard Blog</a> <br /> &#8195; <a href="https://github.com/NanoSmasher/prob-cfvg">My Vanguard scripts on Github</a><br /> &#8195; <a href="mailto:bramptonbooster@hotmail.ca"> My email contact</a><br /> &#8195; <a href="">My original source code</a><br /> &#8195; <a href="">My windows executable version</a><br /> &#8195; <a href="">My (poorly maintained) blog</a>'
+var about = 'PROGRAM: <br /> &#8195; Displays advantages of two competing trigger ratios <br /><br /> ASSUMPTIONS MADE: <br /> &#8195; No stand triggers <br /> &#8195; Opponent lets one attack through <br /> &#8195; No effects <br /> &#8195; 2/2/2 field <br /> &#8195; Deck is sufficiently randomized <br /> &#8195; Opponent guards optimally <br /><br /> MADE BY: <br /> &#8195; Brampton Booster <br /> &#8195; Copyright 2014 (c) MIT License <br /> <br />LINKS: <br /> &#8195; <a href="http://bramptonbooster.wordpress.com/2014/02/19/every-trigger-ratio-youve-ever-wanted/">My Vanguard Blog</a> <br /> &#8195; <a href="https://github.com/NanoSmasher/prob-cfvg">My Vanguard scripts on Github</a><br /> &#8195; <a href="mailto:bramptonbooster@hotmail.ca"> My email contact</a><br /> &#8195; <a href="https://github.com/NanoSmasher/prob-cfvg/blob/master/TriggerCompare.py">My original source code</a><br /> &#8195; <a href="https://www.dropbox.com/s/bbiqknqjc5tdwq6/trigcompare.zip">My windows executable version</a>'
 
 var isShown = 0
 
@@ -23,7 +23,8 @@ function calculate(){
 	var f = parseFloat(document.getElementById("fdraw").value);
 	if (check(a,b,c,d,e,f)==0) return
 	
-	document.getElementById('ratio').innerHTML = 'Expected Losses based on your ratio of '+a+'C/'+b+'H/'+c+'D and the opponents ratio of '+d+'C/'+e+'H/'+f+"D";
+	document.getElementById('error').innerHTML = "";
+	document.getElementById('ratio').innerHTML = 'Expected Losses based on your ratio of '+b+'C/'+a+'H/'+c+'D and the opponents ratio of '+e+'C/'+d+'H/'+f+"D";
 	r = rvr(a,b,c,d,e,f);
     v = vrr(a,b,c,d,e,f);
 	
