@@ -1,0 +1,28 @@
+.special{
+	font-style:italic;
+}
+
+.boring{
+	font-style:italic;
+}
+
+.lame{
+	font-family:Lato;
+}
+
+.pretty{
+	font-family:Arial;
+}
+
+.first{
+	list-style-type:square;
+}
+
+.nnn{
+	list-style-type:disc;
+}
+
+.super{
+	font-family:Segoe UI;
+	font-style:bold;
+}
