@@ -1,7 +1,0 @@
-QUOTE: "Be not afraid"
-DATE: 08/07/14
-
-Blah
-
-Matrix	2	3
-	4	5
