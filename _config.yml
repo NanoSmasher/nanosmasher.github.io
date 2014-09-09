@@ -14,5 +14,9 @@ encoding: utf-8
 
 # Build settings
 highlight: true
-markdown: kramdown
+markdown: redcarpet
+pygments: true
 permalink: pretty
+
+kramdown:
+  input: GFM
