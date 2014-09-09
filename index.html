@@ -1,39 +1,23 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <!--
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    -->
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Nanosmasher</title>
-  </head>
+---
+layout: default
+---
 
-  <body>
-    <h1>Nanosmasher.github.io</h1>
-    <a href="https://github.com/NanoSmasher">View on GitHub</a>
-  
-    <pre><code>$ code</code></pre>
-  
-    <p><a href="best/index.html">BestEndings site</a> </p>
+<div class="home">
 
-    <footer>
-      This page is under construction.
-    </footer>
+  <h1 class="page-heading">Posts</h1>
 
-  </body>
-</html>
-=======
-jhsdgfagdfgsdukga
->>>>>>> 685b6e352d46f3874bb9faacf06a88ecf7e6a742
-=======
-jhsdgfagdfgsdukga
->>>>>>> 685b6e352d46f3874bb9faacf06a88ecf7e6a742
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
