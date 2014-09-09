@@ -1,0 +1,13 @@
+# Site settings
+title: Structure and Mechanics of Fighting Games
+description: > # > ignores newlines
+  Stuff here will appear in places.
+baseurl: ""
+url: "nanosmasher.github.io/fight/"
+github_username: nanosmasher
+
+# Build settings
+markdown: kramdown
+
+#kramdown:
+# input: GFM
