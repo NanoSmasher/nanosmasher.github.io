@@ -14,7 +14,7 @@ encoding: utf-8
 
 # Build settings
 highlight: true
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 permalink: pretty
 
