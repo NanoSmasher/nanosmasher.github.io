@@ -1,22 +1,48 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Nanosmasher
+email: noreply@domain.com
+description: Lots of stuff
+author: Nanosmasher
 
-encoding: utf-8
+# Internet settings
+#twitter_username: nanosmasher
+github_username: nanosmasher
+#disqus_shortname: jekyll-bootstrap-blog
+#gacode: UA-XXXXX-X
 
 # Build settings
+encoding: utf-8
+
 highlight: true
 markdown: kramdown
-pygments: true
-permalink: pretty
-
+highlighter: pygments
+excerpt_separator: "<!-- more -->"
 kramdown:
   input: GFM
+
+# Navigation settings
+baseurl: ""
+url: http://nanosmasher.github.io
+
+permalink: '/:categories/:title/'
+relative_permalinks: false
+paginate_path: '/:categories/page:num/'
+paginate: 10
+
+subblogs:
+  Cardfight Vanguard: 'cfvg'
+  Fighting Games: 'fight'
+  Enslave your Internet: 'blog'
+  Meta-Blog: 'blog'
+
+include: ['_image','cfvg']
+
+cfvg_navigation:
+- text: Home
+  url: /cfvg/
+  icon: "glyphicon glyphicon-home"
+- text: About
+  url: /cfvg/about/
+
+
+  
