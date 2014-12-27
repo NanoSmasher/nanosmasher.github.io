@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 {% include head_{{page.categories}}.html %}
+<body>
 {% include header_{{page.categories}}.html %}
 <div class="container">
     <div class="wrapper">
@@ -9,13 +10,21 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="content">
-                            {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-                            <ul class="inline">
-                                {% if page.author %}<li><span class="vcard"><i class="icon-user"></i> <span class="fn">{{ page.author }}</span></span></li>{% endif %}
-                                {% if page.date %}<li><abbr class="published" title="{{ page.date | date: "%a, %d %b %Y %H:%M:%S %z" }}"><i class="icon-calendar"></i> {{ page.date | date: "%b %d, %Y" }}</abbr></li>{% endif %}
-                            </ul>
+							{% if page.title %}
+							<h1>{{ page.title }}</h1>
+                            <ul class="list-inline">
+							{% if page.author %}
+							<li><span class="vcard"><i class="glyphicon glyphicon-user"></i> {{ page.author }}</span></li>
+							{% else %}
+							<li><span class="vcard"><i class="glyphicon glyphicon-user"></i> Brampton Booster</span></li>
+							{% endif %}
+							<li><span class="published"><i class="glyphicon glyphicon-calendar"></i> {{ page.date | date: "%b %d, %Y" }}</span></li>
+							<li><i class="glyphicon glyphicon-comment"></i><a href="#disqus_thread"> Comment</a>
+							</li>
+							</ul>
+							{% endif %}
+							
                             {{ content }}
-
                             {% include comments.html %}
                         </div>
                     </div>

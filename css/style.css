@@ -1,10 +1,10 @@
 body {
-    background: none repeat scroll 0 0 #EFEFEF;
-    color: #555555;  
+    background-color: #EFEFEF; /*outside*/
+    color: #333333;  
 }
 
 .wrapper {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /*inside*/
     border-radius: 4px 4px 4px 4px;
     margin-bottom: 30px;
 }

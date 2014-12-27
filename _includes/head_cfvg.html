@@ -9,9 +9,10 @@
 	
 	<link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/font-awesome.min.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/openwebicons-bootstrap.css" rel="stylesheet" />
     <link href="{{ site.baseurl }}/css/style.css" rel="stylesheet">
+	<script src="{{ site.baseurl }}/js/jquery-1.10.2.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
 	
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/ico/apple-touch-icon-114-precomposed.png">
@@ -20,4 +21,9 @@
     <link rel="shortcut icon" href="{{ site.baseurl }}/ico/favicon.png">
 	
 	<title>{% if page.title %}{{ page.title }} - {% endif %}Brampton Booster</title>
+	
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	<!--var disqus_url = '{{ site.url }}{{ page.url }}';-->
+	</script>
 </head>

@@ -4,18 +4,27 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">List of sub-blogs</h1>
+  <h1><center>Introduction</center></h1>
+
+	<p>This is the root site for all my blogs. I hope to maintain a variety of different blogs that cover many of my little hobbies, and I hope you will find them enjoyable as well. I tend to focus on theory, math, and all of the intellectual side of things so hopefully there is a lot of food for thought. Shoot me an e-mail for any concerns, comments, or requests and I'll do my best to respond promptly.</p>
+	
+	<p>The title Nanosmasher comes from the a field I wish to study (Nanomaterials) and my belief that strong developments in this field will "smash" our current notions on what physical limits we have come accustomed to. The engineering of nanomaterials will be the materials that will create the future, and that's what I want to be a part of. (alternate explanation: It has a nice ring to it)</p>
+
+  <h1><center>List of sub-blogs</center></h1>
   
   <ul class="post-list">
     {% for blog in site.subblogs %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ blog[1] | append: '/'}}">{{ blog[0] }}</a>
-        </h2>
+	  <li>
+        <h1>
+          <a class="post-link" href="{{ blog.url | append: '/'}}">{{ blog.name }}</a>
+        </h1>
+		{% if blog.description %}
+			<p>{{ blog.description }}</p>
+		{% endif %}
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <h1><center>Enjoy!</center></h1>
 
 </div>

@@ -1,7 +1,6 @@
 # Site settings
 title: Nanosmasher
-email: noreply@domain.com
-description: Lots of stuff
+email: NanoSmasher@users.noreply.github.com
 author: Nanosmasher
 
 # Internet settings
@@ -21,28 +20,45 @@ kramdown:
   input: GFM
 
 # Navigation settings
-baseurl: ""
+baseurl: ''
 url: http://nanosmasher.github.io
 
 permalink: '/:categories/:title/'
 relative_permalinks: false
-paginate_path: '/:categories/page:num/'
-paginate: 10
 
 subblogs:
-  Cardfight Vanguard: 'cfvg'
-  Fighting Games: 'fight'
-  Enslave your Internet: 'blog'
-  Meta-Blog: 'blog'
+-  name: 'Cardfight Vanguard'
+   url: 'cfvg'
+   description: 'Apply mathemathics, logic, game theory, programming, and reasoning to Cardfight Vanguard. Enrich understanding and explore a well of hidden depth in a trading card game that appears to have little complexity on the outside. Use embedded programs complete with open source code to validate and improve the metagame and scientific community.'
+-  name: 'Fighting Games'
+   url: 'game'
+   description: 'Fighting games are a very niche area of gaming as whole and is often subjegated by a large population of gamers. This blog is aimed at people who want to understand more about fighting games (the mechanics, theory, and community) in a plain and simple format without the difficult jargon. It also summarizes and compares the sheer number of fighting games available so any reader who want to delve deeper get off on the right foot.'
+-  name: 'Productivity Tricks'
+   url: 'prod'
+   description: 'A collection of little tricks and tips I gathered over the years to increase my productivity. Focal points are methods in navigating/collecting information on the internet with minimal effort, organizing computer real estate to reduce time switching/focusing on a task, and synchronizing information through multiple devices and persons.'
+-  name: 'Lifelong Ideas'
+   url: 'idea'
+   description: 'A database of ideas that I brainstorm; novels, games, materials, movies, everything. Can range from detailed page long documents to three sentence blurbs. Etched into the internet so after I forget, another soul may be inspired to take a jab at what I have put away.'
+-  name: 'Meta-Blog'
+   url: 'meta'
+   description: 'A blog about the behind the scene stuff I do in my blog. Deeper explaination about my choices, considerations, and assesments in building the blog. Include thoughts in expanding/development, and point out interesting features in other blogs (on which I may or may not implement).'
 
-include: ['_image','cfvg']
+include: ['cfvg','game','prod','meta']
 
 cfvg_navigation:
 - text: Home
   url: /cfvg/
-  icon: "glyphicon glyphicon-home"
-- text: About
-  url: /cfvg/about/
-
-
-  
+  icon: 'glyphicon glyphicon-home'
+- text: Lessons
+  url: /cfvg/lessons/
+  children:
+  - text: "Lesson 1: Do Shit"
+    url: /cfvg/lesson1/
+- text: Research
+  url: /cfvg/research/
+- text: Reports
+  url: /cfvg/reports/
+- text: Resources
+  url: /cfvg/resources/
+- text: Contact
+  url: /cfvg/contact/

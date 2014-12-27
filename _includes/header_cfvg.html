@@ -1,5 +1,5 @@
 <div class="container" id="header">
-    <p class="site-name"><a rel="home" title="{{ site.name }}" href="{{ site.baseurl }}/{{page.categories}}"><img src="image/masthead.png" /></a></p>
+    <p class="site-name"><a rel="home" title="{{ site.name }}" href="{{ site.url }}/{{page.categories}}"><img src="{{ site.baseurl }}/cfvg/image/masthead.png" /></a></p>
 </div>
 <div class="container">
     <div class="navbar navbar-inverse" role="navigation">
@@ -12,51 +12,32 @@
             </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav">
-            {% for link in site.cfvg_navigation %}
-                {% assign current = nil %}
-                {% capture fullurl %}{{ link.url }}index.html{% endcapture %}
-                {% if page.url == fullurl or page.url == link.url %}
-                    {% assign current = 'active' %}
-                {% endif %}
-
-                {% if link.external %}
-                    {% assign link_url = link.url %}
-                {% else %}
-                    {% capture link_url %}{{ site.baseurl }}{{ link.url }}{% endcapture %}
-                {% endif %}
-
-                {% if link.children %}
-                <li class="dropdown {{ current }}">
-                    <a href="{{ link_url }}" class="dropdown-toggle" data-toggle="dropdown">{{ link.text }} <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    {% for childlink in link.children %}
-                        {% if childlink.external %}
-                            {% assign childlink_url = childlink.url %}
-                        {% else %}
-                            {% capture childlink_url %}{{ site.baseurl }}{{ childlink.url }}{% endcapture %}
-                        {% endif %}
-                        <li><a href="{{ childlink_url }}">
-                            {% if childlink.icon %}
-                            <i class="{{ childlink.icon }}" alt="{{ childlink.text }}" title="{{ childlink.text }}"></i>
-                            {% endif %}
-                            {{ childlink.text }}
-                        </a></li>
-                    {% endfor %}
-                    </ul>
-                </li>
-                {% else %}
-                    <li class="{{ current }}"><a href="{{ link_url }}">
-                        {% if link.icon %}
-                        <i class="{{ link.icon }}" alt="{{ link.text }}" title="{{ link.text }}"></i>
-                        {% endif %}
-                        {{ link.text }}
-                    </a></li>
-                {% endif %}
-            {% endfor %}
-                <li><a href="{{ site.baseurl }}/rss.xml"><i class="fa fa-rss" alt="RSS" title="RSS"></i></a></li>
-            </ul>
-        </div>
+		<div class="col-md-9" style="padding: 0px;">
+			<div class="collapse navbar-collapse" id="navbar-collapse-1">
+				<ul class="nav navbar-nav">{% for link in site.cfvg_navigation %}{% assign current = nil %}{% capture fullurl %}{{ link.url }}index.html{% endcapture %}{% if page.url == fullurl or page.url == link.url %}{% assign current = 'active' %}{% endif %}{% if link.external %}{% assign link_url = link.url %}{% else %}{% capture link_url %}{{ site.baseurl }}{{ link.url }}{% endcapture %}{% endif %}{% if link.children %}
+					<li class="dropdown {{ current }}">
+						<a href="{{ link_url }}" class="dropdown-toggle" data-toggle="dropdown">{{ link.text }} <b class="caret"></b></a>
+						<ul class="dropdown-menu">{% for childlink in link.children %}{% if childlink.external %}{% assign childlink_url = childlink.url %}{% else %}{% capture childlink_url %}{{ site.baseurl }}{{ childlink.url }}{% endcapture %}{% endif %}
+							<li><a href="{{ childlink_url }}">
+								{% if childlink.icon %}
+								<i class="{{ childlink.icon }}" alt="{{ childlink.text }}" title="{{ childlink.text }}"></i>
+								{% endif %}{{ childlink.text }}
+							</a></li>{% endfor %}
+						</ul>
+					</li>
+					{% else %}
+						<li class="{{ current }}"><a href="{{ link_url }}">
+							{% if link.icon %}
+							<i class="{{ link.icon }}" alt="{{ link.text }}" title="{{ link.text }}"></i>
+							{% endif %}{{ link.text }}
+						</a></li>
+					{% endif %}{% endfor %}
+					<li><a href="{{ site.baseurl }}/cfvg/rss.xml"><i class="fa fa-rss" alt="RSS" title="RSS"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-3" style="padding: 11px; color: #999;">
+			<input type="textbox" id="search"/><i class="fa fa-search" style="padding-left: 10px" alt="Search" onclick="search()"></i>
+		</div>
     </div>
 </div>
