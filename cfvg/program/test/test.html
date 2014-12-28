@@ -1,0 +1,27 @@
+---
+---
+<!-- Change the font to Vera -->
+<style type="text/css">
+    @font-face {
+      font-family: 'Vera';
+      src: url('{{ site.baseurl }}/fonts/Vera.ttf');
+    }
+  </style>
+
+<!-- Initialize Punchdrunk  -->
+<script src="{{ site.baseurl }}/js/punchdrunk.js"></script>
+
+<!-- The holder where you plop the game on.
+	 Make sure to change "game" if you add
+	 more then one love file per page! 
+-->
+<div id="game_container">
+      <canvas id="game"></canvas>
+</div>
+
+<!-- Activate game. Change id of this as well -->
+<script>
+    new Punchdrunk({
+      canvas: document.getElementById("game")
+    })
+</script>
