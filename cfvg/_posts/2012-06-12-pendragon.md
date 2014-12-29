@@ -1,6 +1,7 @@
 ---
 layout: default-cfvg
 title:  "Lens of Truth: Pendragon (and other Royal Paladin Grade 3’s)"
+comment: true
 ---
 #### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 

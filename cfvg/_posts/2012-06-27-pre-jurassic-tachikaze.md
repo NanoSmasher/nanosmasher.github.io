@@ -1,6 +1,7 @@
 ---
 layout: default-cfvg
 title:  "Pre-Jurassic Tachikaze"
+comment: true
 ---
 #### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 

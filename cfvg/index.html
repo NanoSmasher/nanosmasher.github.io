@@ -16,7 +16,7 @@ categories: cfvg
 			{% endif %}
             <li><i class="glyphicon glyphicon-calendar"></i> {{ post.date | date: "%b %d, %Y" }}</li>
             <li><i class="glyphicon glyphicon-comment"></i>
-			<a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">Comment</a>
+			<a href="{{ site.baseurl }}{{ post.url }}/#comment_thread">Comment  </a><script type="text/javascript" src="http://www.intensedebate.com/js/genericLinkWrapperV2.js"></script>
 			</li>
         </ul>
 		<p class="entry-summary">{{ post.content }}</p>

@@ -6,8 +6,8 @@ author: Nanosmasher
 # Internet settings
 #twitter_username: nanosmasher
 github_username: nanosmasher
-#disqus_shortname: jekyll-bootstrap-blog
-#gacode: UA-XXXXX-X
+intenseID: de87eaf2f53a2866cef4bad6df99ef1c
+gacode: UA-58062642-1
 
 # Build settings
 encoding: utf-8
@@ -52,13 +52,67 @@ cfvg_navigation:
 - text: Lessons
   url: /cfvg/lessons/
   children:
-  - text: "Lesson 1: Do Shit"
+  - text: "Lingo"
+    url: /cfvg/lesson0/
+  - text: "Magic Numbers"
     url: /cfvg/lesson1/
+  - text: "What to Put In a Deck"
+    url: /cfvg/lesson2/
+  - text: "Grade/Trigger Ratios"
+    url: /cfvg/lesson3/
+  - text: "The Winning Image"
+    url: /cfvg/lesson4/
+  - text: "Advantage and Resources"
+    url: /cfvg/lesson5/
+  - text: "Subgames and Field Formation"
+    url: /cfvg/lesson6/
+  - text: "Rearguard Talk"
+    url: /cfvg/lesson7/
+  - text: "--DISCONTINUED--"
 - text: Research
   url: /cfvg/research/
+  children:
+  - text: "Best ATK/DEF formation"
+    url: /cfvg/standard/
+  - text: "Using Linear Algebra"
+    url: /cfvg/linalg-1/
+  - text: "The 3 Prototypes"
+    url: /cfvg/prototype/
+  - text: "Direct/Indirect Advantage"
+    url: /cfvg/direct/
+  - text: "Grade 3 Checkers"
+    url: /cfvg/morikawa/
+  - text: "Order of Attack"
+    url: /cfvg/battle/
+  - text: "Simplfied Attack Strategy"
+    url: /cfvg/power/
+  - text: "Python Modules"
+    url: "https://github.com/NanoSmasher/prob-cfvg"
 - text: Reports
   url: /cfvg/reports/
-- text: Resources
+  children:
+  - text: "Stand and Draw"
+    url: /cfvg/stand-and-draw
+  - text: "DEEP CLAN ANALYSIS"
+  - text: "> Angel Feather"
+    url: /cfvg/angel-feather/
+  - text: "> Royal Paladin"
+    url: /cfvg/royal-paladin/
+  - text: "CARD ANALYSIS"
+  - text: "Dragonic Kaiser Vermillion"
+    url: /cfvg/vermillion/
+  - text: "Dragonic Nouvelle Vague"
+    url: /cfvg/nouvelle/
+- text: "Contact/Resources"
   url: /cfvg/resources/
-- text: Contact
-  url: /cfvg/contact/
+  children:
+  - text: "V-Mundi"
+    url: "http://www.v-mundi.com/"
+  - text: "TehNacho"
+    url: "http://thunkofcardgames.blogspot.ca/"
+  - text: "Tim Power Gamer"
+    url: "http://timpowergamer.blogspot.ca/"
+  - text: "Vanguard Wow"
+    url: "http://vanguardwow.blogspot.ca/"
+  - text: "Python Modules"
+    url: "https://github.com/NanoSmasher/prob-cfvg"

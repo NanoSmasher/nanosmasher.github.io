@@ -19,13 +19,16 @@
 							<li><span class="vcard"><i class="glyphicon glyphicon-user"></i> Brampton Booster</span></li>
 							{% endif %}
 							<li><span class="published"><i class="glyphicon glyphicon-calendar"></i> {{ page.date | date: "%b %d, %Y" }}</span></li>
-							<li><i class="glyphicon glyphicon-comment"></i><a href="#disqus_thread"> Comment</a>
-							</li>
+							<li><i class="glyphicon glyphicon-comment"></i><a href="#comment_thread">Comment </a><script type="text/javascript" src="http://www.intensedebate.com/js/genericLinkWrapperV2.js"></script></li>
 							</ul>
 							{% endif %}
 							
                             {{ content }}
-                            {% include comments.html %}
+							
+							{% if page.comment %}
+								<a name="comment_thread"></a>
+								{% include comments.html %}
+							{% endif %}
                         </div>
                     </div>
                     <div class="col-md-4">

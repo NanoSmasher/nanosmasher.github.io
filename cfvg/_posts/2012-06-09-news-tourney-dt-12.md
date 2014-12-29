@@ -1,6 +1,7 @@
 ---
 layout: default-cfvg
 title:  "Vanguard Official District Tournament 2012"
+comment: true
 ---
 
 The following table contains the Champion decks for the District tournament 2012

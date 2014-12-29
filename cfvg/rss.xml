@@ -13,9 +13,9 @@ layout: null
         <description>{{ blog.description | xml_escape }}</description>
         <link>{{ site.url }}{{ site.baseurl }}/{{blog.url}}</link>
         <atom:link href="{{ site.url }}{{ site.baseurl }}/rss.xml" rel="self" type="application/rss+xml" />
-        {% for post in site.categories.cfvg limit:50 %}
+        {% for post in site.categories.cfvg  %}
         <item>
-            <title>{{ post.title }}</title>
+            <title>{{ post.title | xml_escape }}</title>
             <description>{{ post.excerpt | strip_html | xml_escape }}</description>
             <content:encoded>{{ post.content | xml_escape }}</content:encoded>
             <pubDate>{{ post.date | date: "%a, %b %d %Y GMT-%z" }}</pubDate>
