@@ -15,7 +15,7 @@
 </div>
 
 <div class="widget-wrapper">
-<h3 class="widget-title">Hypergeometric Calculator</h3>
+<h3 class="widget-title">Hypergeometric Cumulative Probability Calculator</h3>
 	<script type="text/javascript" src="{{ site.baseurl }}/cfvg/program/hgcc.js"></script>
 </div>
 
@@ -30,7 +30,7 @@
 
 <div class="widget-wrapper">
 <h3 class="widget-title">Archive</h3>
-<ul>{% for post in site.posts %}{% capture next %}{{ post.date | date: "%B %Y" }}{% endcapture %}{% if next != current %}
+<ul>{% for post in site.categories.cfvg %}{% capture next %}{{ post.date | date: "%B %Y" }}{% endcapture %}{% if next != current %}
         <li><a href="{{ site.baseurl }}/cfvg/archive/#{{ post.date | date: '%B%Y' }}">{{ next }}</a></li>
         {% assign current = next %}{% endif %}{% endfor %}
 </ul>
