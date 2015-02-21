@@ -5,7 +5,7 @@ categories: cfvg
 comment: true
 ---
 
-#### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
+####  Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 
 <p>A tight-knit group of angels deliver judgement to all the poor disciples living under it. Celestials are a devastating bunch, being able to overwhelm any deck in three turns max. Zerachiel accompanies this group to bring forth the shower of doom.</p>
 <p><strong>Idea</strong><br /> 26|26|26</p>

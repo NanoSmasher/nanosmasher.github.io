@@ -5,7 +5,7 @@ categories: cfvg
 comment: true
 ---
 
-#### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
+####  Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 
 <p>Here comes a very interesting take on Royal paladins. In one of the most bizzare Winning Image ever, we use an overwhemling amount of grade threes in which Morikawa can find just acceptable. To put those grade 3&#8217;s to good use, we turn to Bridgette&#8217;s special ability. Although not as interesting as other drive checkers, our Surperior ride of Blaster Blade nets us a confirmed ride that other decks are limited to.</p>
 <p>NOTE: Obivously, this is a deck requires Barcgal. Therefore this deck cannot be used in tournaments.</p>

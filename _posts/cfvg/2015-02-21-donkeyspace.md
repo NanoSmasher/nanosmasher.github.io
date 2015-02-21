@@ -11,7 +11,7 @@ Optimal.
 
 Do you think being optimal means that strategy is the best way to play? Does it trounce suboptimal plays each and every time? And if you said no, in what way would a sub-optimal play be preferred?
 
-###What Is Optimal
+###  What Is Optimal
 
 I think the largest misconception about optimization it that is it is "the best way to play". But that's not exactly what optimization means. In a theoretical sense, it means you play with the least exploitably. It means that regardless of what the opponent does, you won't be at any larger disadvantage then if you used a suboptimal tactic. The problem with people solely grinding optimal strategies is that they leave out much of the mortal factors. Much of the time[^1] we are facing opponents with suboptimal deck builds and suboptimal strategies and when confronted with that, sometimes it is necessary to also play suboptimally in order to exploit that weakness.
  
@@ -30,7 +30,7 @@ The optimal solution is to put everything on the vanguard. The sub-optimal solut
  
 Now let's turn this around for a moment. If you had an infinite wall of cards, why did you decide to 2-pass? Clearly that is a suboptimal strategy that introduces a way to be exploited. But what if your hand was actually an infinite wall of grade 3's, barring enough to defend the remaining two unboosted rearguard lanes? It would then be your optimal play to land a two-to-pass. At the same time, would the optimal solution for the opponent be to pass it to the rearguard? No! Remember that each individual has a different set of information and that being optimal only accounts for the information they acquired. Should you have learned their hand was full of grade 3's, it would then be reasonable to say that would be optimal. Optimal plays are very local and are heavily dependant on individual scenarios. 
 
-###Looks good on paper
+###  Looks good on paper
 
 Let's imagine Rock Paper Scissors. Now imagine the opponent, say his name is Frank, randomly throws each option at the same probability with no bias (1/3,1/3,1/3). How would you play in order to get the highest chance of winning?
 
@@ -39,7 +39,7 @@ Can we get better? Let's try to use paper 50% of the time, and switch to scissor
 
 So you are fed up with thinking as there is no need to do anything other then throw paper over and over. But all of a sudden, Frank starts to play scissors! From this switch, he suddenly moves to a 100% win rate and causes you to lose all your money. This is called exploiting. Frank deviated from his optimal strategy in order to exploit and take advantage of your suboptimal plays. Knowing this you decide you want to make him taste a bit of his own medicine by exploiting his suboptimal tactic you decide to try rock. Your smirk turns into surprise as you realize he chose paper this time. Go home he says, you're too dumb.
 
-###Donkey Spaces
+###  Donkey Spaces
 
 Donkeyspace[^2] refers to the space in which a suboptimal tactic is used to exploit another suboptimal tactic. An even slyer definition of donkeyspace refers to the space in which using a suboptimal tactics is used to encourage a suboptimal tactic to exploit the original tactic, only to use a suboptimal tactic to exploit that suboptimal tactic. Talk about inception.
 
@@ -51,7 +51,7 @@ It is rare to see optimal players make it to the top in any tournament, and this
 
 [^3]: Or maybe you knows he knows you know his exploit and that he is going to change it so you decide to pick paper to beat his rock, but of course he is actually disguised as Frank and he knows you know he knows you knows his exploit and so he picks scissors to bite your ass. [Sharkception](http://img1.wikia.nocookie.net/__cb20121224160833/cardfight/images/c/c6/BT06-061EN_C.jpg).
 
-###Extension to Vanguard
+###  Extension to Vanguard
 
 Theory and practice always have conflicting points. When playing against people and using donkeyspace keep this in mind:
 
@@ -69,7 +69,7 @@ And sadly, this is quite true in vanguard. Don't try to do fancy stuff to lead t
 
 I find that playing on a donkeyspace or mindgame level a really satisfying thing, as the constant baiting and provoking as well as out-thinking the opponent really plays into account here. You have all the tools at your disposal and you really are playing the game to the best it can be. You can predict the opponent and counter their counter to your plan. You aren't blind to your choices and what results from it and you do feel that you have control over the game. But this can't be reached unless your opponent also has the knowledge and experience to match up. While it'll be great to have all players to play like in "theory", the tournaments and attitudes voiced by the majority currently falls right into the "practice" ideology.
 
-### Absolutes or Nash Equilibrium
+###  Absolutes or Nash Equilibrium
 
 Much of the later part of this article focuses on using and abusing suboptimal plays in vanguard, but I need to point out a couple of things that can't be played suboptimally because you gain no situational advantage for doing so. If I 
 
@@ -84,11 +84,11 @@ Same case for perfect guards. There are still no builds viable enough so far as 
 
 I guess other ones would be to ride to grade 3 as fast as possible and put crits on vanguard if they are at 4 damage and you can pass, and other small things. 
 
-### Exploiting terrible players
+###  Exploiting terrible players
 
 The format will be divided into the particular suboptimal tactic your opponent has, what is "optimal", what "suboptimal" play can be subjectively considered superior, and details as to why. I invite you to think of the optimal and suboptimal decisions before looking through it.
 
-####Scenario
+####  Scenario
 Your opponent is not running the optimal lineup (Something like 8C/4D/4H). You are at 4 damage and have enough to guard all his attacks. You have a good chance of winning if you tank for a couple of turns, but if you decide to let his vanguard through you'll have a better chance of winning with the cards you saved. Your opponent initiates an assault on your vanguard with no additional crits.
 Your plan is to...
 
@@ -106,7 +106,8 @@ But there is also something inherent in the way the trigger ratios are presented
 
 You might be asking why guarding it is still optimal given my above point. That's because 30% is still a fair amount of risk, provided that tournaments are best of 1 or 3 (depending on the format). It would be on average more advantageous to you to keep going for a few more turns, as an opponent that lacks access full crits troubling in other departments. But playing suboptimally lowers the amount of chaos or "randomness" remaining and closer to a set of micro-scenarios where theory takes a greater hold.
 
-####Scenario
+####  Scenario
+
 You are stocking a full field. Your opponent has all but a side booster, but uses his sole stage 1 rearguard to attack your grade 2 rearguard. You don't have a replacement attack on hand but you still have a booster to guard it. Your plan is too...
 
 **Optimally**: Guard it
@@ -123,7 +124,8 @@ The reason why you would consider a decision such as this is dependant on the de
 
 So far I've been hammering you with what irrational plays you can make in order to secure some other sort of advantage. Yet I haven't asked for any situation where you would force an opponent would make an irrational play. Now we flip the scenario around and propose the question of what you will do when you could send a 1-stage at the rearguard. You want your opponent to not guard the attack. To do so, you should target the grade 2 rearguard with the lower threat. It might seem irrational as well but you are opting to cause the opponent to be irrational as well. It's a interesting gambit which requires you to understand an opponent's reactions corresponding to what they have available in their hands.
 
-####Scenario
+####  Scenario
+
 Take the previous scenario, and change one of the following: Either you have a grade 1/3 unit being attacked instead, or the opponent is throwing a 2-stage lane. Your plan is too...
 
 **Optimally**: Not guard it

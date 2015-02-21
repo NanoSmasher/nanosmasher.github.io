@@ -37,7 +37,7 @@ To fill a stack and this:
 
 To empty the stack. The key thing to note is that you can not take Card A out of the stack before Card B is taken out. And Card B can’t be taken out before Card C. The Card on the bottom can’t be removed before taking out the ones on top.
 
-###MTG
+### MTG
 
 FYI, spell := Card
 
@@ -66,7 +66,7 @@ So the big problems MTG resolution system has are:
   *  Constant peckering of both players
   *  Resources are forced limited to reduce stack length [^4]
 
-###YGO
+### YGO
 
 FYI, chain:=stack
 
@@ -103,7 +103,7 @@ So what problems did YGO solve or create?
 
 Although this last point does not concern the point I’m getting at, YGO has done a significant improvement in the understanding of card effects, now making them both consistent and logic-based.
 
-###FCBF
+### FCBF
 
 So YGO and MTG each stack and chain off of each other ad infinitum, which forces their cards to cut significant amounts of resources. Buddyfight aims to shorten the unnecessary drive with a 1 counter clause. Therefore, using cards now works like this:
 
@@ -161,7 +161,7 @@ So what problems did FCBF solve or create?
   *  (-)Stack has very little input
   *  (-)Combos become impossible due to simplicity
 
-###The cache
+### The cache
 
 So we have folly’d with this “ordered” resolution for a long time. After all, it works and everyone is content. We want combos and counter-play, and sacrificing that causes people to feel like the game is overtly simple and childish. That isn’t absolutely true, but it certainly reduces the depth of the effects that effects have.
 
@@ -171,7 +171,7 @@ So this is where I show what neat tricks Vanguard pulls to get the best of both 
 
 Notice that in a cache, order is unimportant.
 
-###CFVG
+### CFVG
 
 To activate an effect, it has to meet it’s conditions.
 
@@ -216,7 +216,7 @@ So if you want to get picky, here are some problems it suffers.
   *  All effects should have to prevent self-occurring loops
   *  Logic base language does not work with deformed grammar [^9]
 
-###Conclusion
+### Conclusion
 
 So we had a short article here discussing the various ways to resolve multiple effects, optimally keeping it consistent, open to flexibility, reduces redundancy, and reduces load on memory for more important tasks. While there is no prefect system as so far, nor have I talked about any horrendous ones, the ones I have mentioned are all successful games. So while a well-defined rule set does not correlate to popularity, we know that people are willing to accept imperfections and devise short-cuts in order to enjoy the game keeping the rule sharks out.<i class="fa fa-stop"></i>
 

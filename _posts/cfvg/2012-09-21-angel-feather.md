@@ -5,7 +5,7 @@ categories: cfvg
 comment: true
 ---
 
-#### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
+####  Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 
 <p>Royal Paladins are a pushover. I mean, come on, they got taken away by some dark fog. and now in its place, there are those horribly inconsistent Gold Paladins. Surely you expect more from the United Sanctuary, but the Oracle Think Tanks seem to have scurried away. And because there is STILL a war raging between nations you need to send in nurses to fight. That isn&#8217;t in the job description! Oh well, It&#8217;s not really that bad. At least the units getting hurt can mend themselves!</p><!-- more -->
 

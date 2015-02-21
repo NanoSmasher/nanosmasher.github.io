@@ -4,7 +4,7 @@ title:  "Royal Paladin"
 categories: cfvg
 comment: true
 ---
-#### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
+####  Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 
 <p>The Holy Knights can take over the planet Cray by shear numbers, and being the favourite clan by the main character, there are lots of valuable (and not so valuable) support.</p> <!-- more -->
 

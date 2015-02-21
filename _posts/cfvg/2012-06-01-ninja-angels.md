@@ -5,7 +5,7 @@ categories: cfvg
 comment: true
 ---
 
-#### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
+####  Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 
 <p>I had this sudden notion, and I thought it would be awesome!<br />
 So Ergodiel&#8217;s effect usually work to about 0-1 times a game. Not that good. But what if they had nothing to guard with?<br />

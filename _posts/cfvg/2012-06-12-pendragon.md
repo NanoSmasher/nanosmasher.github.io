@@ -4,7 +4,7 @@ title:  "Lens of Truth: Pendragon (and other Royal Paladin Grade 3’s)"
 categories: cfvg
 comment: true
 ---
-#### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
+####  Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 
 
 I’m flabbergasted. Dumfounded, flummoxed and any other synonym you can think of to describe this event.
@@ -22,7 +22,7 @@ AUTO : When this unit is placed on (V), this unit gets +POWER 5000 until the end
 
 In Alice’s blog she said how 21k is unguardable. Seriously, any vanguard can do that boosted (and the knowledge of possible triggers).
 
-###Boosters
+### Boosters
 
 First off, let’s see what 6k units we can use to boost this so-called op unit:
 
@@ -39,7 +39,7 @@ Add 1k more and now you have a new contender: Swordsman of the exploding Flames,
 AUTO【V/R】: When this unit attacks, if you have two or more grade 3 «Royal Paladin» vanguard and/or rear-guards, this unit gets +POWER3000  until the end of the battle.
 This card is truly powerful. It gains 3k if you have 2 or more grade 3 Royal paladins. No other conditions. Add 1k more (8k vanillas that you have 4 of!) and then it hits for 21k, same as Pendragon. I’ll give you even more reason why it’s powerful later.
 
-###Ride the Vanguard
+### Ride the Vanguard
 
 Let’s see who has the most power:
 Pendragon boosted by an 8k on the first turn – 23k
@@ -69,7 +69,7 @@ Everything else, Including Pendragon: 10k and under.
 
 But why have Pendragon attack without boosting? There are tons of ways to get out boosters; this is part swarm deck you know.
 
-###In Rearguard
+### In Rearguard
 
 Alone, without boosters:
 Pendragon, Alfred & Majesty Lord Blaster – 10k
@@ -93,7 +93,7 @@ Blaster Blade: Yes, get rid of anything powerful that the opponent has
 
 This time, there is a clear winner. Pendragon is nothing in Rearguard.
 
-###Limit Break!
+### Limit Break!
 
 Now, time for the second effect pendragon:
 
@@ -117,7 +117,7 @@ If you want to ride a certain grade 3, PUT THREE OR FOUR OF EACH COPY INTO YOUR 
 
 So deck thinning = deck winning? Not in this case. Getting rid of ONE card in the game is nothing, and that’s what Pendragon does. Gancelot, Akane and other cards thin decks, but they can be used easier, don’t minus, don’t need LB and bring out useful and specific cards. What’s the problem with drawing Grade 3’s? You can call them and use their skills. They are 10k attackers which are great to replace Grade 2’s or place onto an empty field. They can be used for discarding  effects like Isolode. They can be boosted for high numbers that propel the opponent into the late game instead of your one thin. With Pendragon, you’ll just keep minusing yourself every turn since he’s useless in RG until you die.
 
-###Pendragon Build
+### Pendragon Build
 
 Finally, what are you going to run in your miserable Pendragon build?
 Alfred, Palamedes and MLB fill up every space in all tournament and metagame deck.
@@ -127,7 +127,7 @@ Garmeaux and whatever is left can do so better without Pendragon.
 
 Sorry, Pendragon, there isn’t any room for you, Vanguard or Rearguard.
 
-###The Final Chance
+### The Final Chance
 
 The final try that my community tried to pull was it’s rarity.
 Pendragon is RR, the others are RRR. That means it’s easier to acquire.

@@ -5,7 +5,7 @@ categories: cfvg
 comment: true
 ---
 
-#### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
+####  Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 
 <p>Royal Paladins started off with and stay with the tried and true concept of raw power even amidst the new sets. Well, this is where it all began. From the (Original) King of Kings himself, here comes the free masons.</p>
 <p>NOTE: This deck is used by Fighter Gotou Kiyomi/後藤聖弥.(National Champion) Read more about him in this <a href="http://vanguardus.blogspot.ca/2012/07/spotlight-gotou-kiyomi.html">Fighter&#8217;s Spotlight</a>.<br />

@@ -4,11 +4,11 @@ title:  "Lens of Truth: Kaiser Vermillion vs. Overlord"
 categories: cfvg
 comment: true
 ---
-#### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
+####  Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 
 Which is better? If you said Vermillion flat out, then you have fallen into the cardtrap of hype and sinking faster then lead boots.
 
-###The Winning Image
+### The Winning Image
 
 The winning image of Narukami is ‘lightning fast fights’, and their card effects certainly match up to that expectation. The Djinn line focuses powerful attacks on the vanguard. The wyrens push the opponent into the late game faster then they like to. The Desert Gunners temperarily stop Intercept and slow down your opponent’s formation. Death Scythe and Thunder Break remove those intercepters completely. Brightjet allows you to push again since you’ll be unlikely to have too many cards in your hand. Most narukami decks have 6 or more criticals, and that Indra practically sucks guards from your opponent. Everything is centered on finishing off the opponent before they can do anything.
 
@@ -16,7 +16,7 @@ But what wrong with DKV? <!-- more --> It is because the boss card does not fit 
 
 The best time to use DKV is in the late game, where a 5k shield can make all the difference. Each player is down to the wire and hoping the opponent won’t get triggers. If you cannot defeat your opponent on the turn after your ability goes off, you are supposed to lose. If you win, that’s either because your opponent sucks or you got a very important heal.
 
-###Power rating
+### Power rating
 
 Why do people compare DKV to Blockade + DO? Because people think that it combines the inability to intercept with the ability of wiping the front row. But that’s not so true. DKV cannot force a guard but DO does.
 
@@ -24,13 +24,13 @@ DKV at max power will swing at 23k (and only with the 10k booster that you shoul
 
 First, before we go into the aftermath of DKV’s effect, let me tell you when you can use it. DO can work in RG: DKV is VG only. Either Narukami will have a DKV VG or losing. Dragonic Overlord is also techable, a lethal secret weapon in some decks. Even boosted by a 6k without another KG he will hit for 20k (+10k on a normal RG) and goes to a max 26000. DKV is stuck with his Narukami buddies, and even mentioning another card from a different clan makes him a clumsy and terrible 9k; The worse number in offense and defense for a grade 3.
 
-###No Guard
+### No Guard
 
 Unlike DKV, DO gives choices to the opponent, none of them good. They can choose to guard the attack at the expense of wasting cards from the hand. In this case, DO becomes CB3: Increase your VG and one RG by 15000 (or 20000 if you do a +15k attack). No LB means that you don’t need to be in the late game to use the effect. That is going to be 30000shield total.
 They can let the first attack through then guard the second (since he goes down to 16k). So it is now CB3: Retire one Rearguard and increase your vanguard by 10k.(Or 15k again if it is an intercept unit)
 The last acceptable option is to not guard any attack, and obviously its going to be CB3: Retire two Rearguards and inflict one damage to your opponent. You do not need LB for this. Hey, doesn’t the last one sound like DKV? That’s right, in full force DO is the same as DKV without Limit Break. But that’s not all Do can do.
 
-###Unfortunate Event
+### Unfortunate Event
 
 DO attacking from the Rearguard position. Making the first attack, it clears the path for the Vanguard to hit. HIT. Units in the vanguard are the most powerful (usually, DO is better in RG). After DO swings you can attack you reduce your opponent’s advantage in the Rearguard position. Vermillion needs to do that in the vanguard position. So your vanguard is attacking AFTER your opponent lost their cards, not BEFORE it like Vermillion.
 
@@ -44,7 +44,7 @@ Overlord: 2RG, null+20k, 1dmg \S/ **OR** 40k, 2 dmg OR null+40k **OR** 1RG, null
 
 So Overlord is really good at it’s game, but there is one thing DO is bad at.
 
-###The Condition
+### The Condition
 
 DO’s effect is really hard to use properly. You basically need to set it up just right and know everything your opponent has. Plus, there are many different patterns of attack you can use with DO. If you kill the two RG ‘s with DO don’t hit the VG again, but rather use your VG to attack instead(Unless you are 100% sure a STAND trigger is on it’s way). Knowing how to use it takes a lot of logical thinking. Most players screw up, even me sometimes. You need 2 conditions, but its generalality is what makes him so techable.
 
@@ -53,7 +53,7 @@ DO’s effect is really hard to use properly. You basically need to set it up ju
 
 Without those two conditions, it’s just a 20k shield. A Juggernaut can do that without a hefty cost. The optional condition, to get your opponent quaking in their boots, is to have a pressuring Vanguard, either a Erdogiel to threaten a late game heal or a Crit Indra, or a Amaterasu with a Crit hiding. Excluding DOTE, it’s slightly hard to find room to tech it and get it when you need it. But the tiny fun techs makes it a wild card that many people don’t suspect. Narukami people, everyone knows what is going to happen, making them way too predictable.
 
-###The Final Chance
+### The Final Chance
 
 Vermillion is powerful, and there really isn’t any bad time to use it. DO will create headaches because of the plethora of options of attack. Careful planning need to be taken to bring judgement, and there is almost always a chance in the game, though hard to find. Although DO is slightly circumstantial, it is still way better then DKV.
 

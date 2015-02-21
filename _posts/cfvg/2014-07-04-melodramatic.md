@@ -7,7 +7,7 @@ comment: true
 
 <a name="nine"></a>
 
-###It’s over 9000(0)! <a href="back">*</a>
+### It’s over 9000(0)! <a href="back">*</a>
 
 [tl;dr – The data](/cfvg/melodramatic/#tldr)
 
@@ -15,7 +15,7 @@ When looking at a ‘final turn’ gambits people consider how likely your oppon
 
 <!-- more -->
 
-###The Notation
+### The Notation
 
 Let’s consider an early Set 2 ‘Final Turn’, riding soul saver dragon. In essence this move dealt a 3/3v/4 or about 11.55 stages (A 3-stage rg, a 3-stage vg, and a 4-stage rg makes 10 stages; then add the +1 from the vg and +1 for triggers). Sitting with \60/ makes living through this turn no sweat. Though we are missing one type of card that would make this even sweeter; can you guess what it is?
 
@@ -75,7 +75,7 @@ So from now on you’ll see this kind of notation pop up to judge the strength o
 2	[	7	|	4.33	]
 ```
 
-###Kinds of Final turns
+### Kinds of Final turns
 
 Except if you are going Glendios, a finishing blow come from getting enough hits in to seal the deal. This mainly falls into four categories:
 
@@ -86,7 +86,7 @@ Except if you are going Glendios, a finishing blow come from getting enough hits
 
 Keep in mind the relative strengths; 5 1-stage attacks vs 1 5-stage attacks may favour the former, but 1 15-stage attack is slightly tougher to judge. So I’m just going to show off a bunch of different Final Turn situations and generalize the capabilities of each one.
 
-####Power up Melody
+#### Power up Melody
 
 Let’s start with the easiest pair.
 
@@ -174,13 +174,13 @@ Or for the 13/17v/17 stages:
 
 Even at a portion of the power (2 less creepers, maybe 5 soul to start) you are still looking an incredible numbers here. Just for a check, compare this to “SS+P:Final” and you’ll find this to be close to 4 times better.
 
-####Zealing
+#### Zealing
 
 ![Reality Witch, Rias](/cfvg/image/EB11-004.png)
 
 Ironically, I won’t be discussing the pattern for Galaxy Beast, Zeal or it’s Gundam counterpart. Instead, we will stare into the eyes of these witches and their extremely powerful curses. At Legion’s best they can drop out anywhere from 25k to 45k from the opponent, which is the inverse of having all your columns gain the same amount. [STAND] will make this a nightmare but let’s just say that zealing is one of the greatest finishers in vanguard. I believe you can compute a matrix for a 11/13v/11 so I’ll leave this one aside for now.
 
-###The Emperors of Strength
+### The Emperors of Strength
 
 Who can talk about multiple rearguard attacks without a mention at Aqua Force? So let’s bring up on of the best representatives of the AqF: Genovious. I know Maelstrom and other 3rd/4th types are also relevant but when it comes to multiple attacks this guy delivers.
 
@@ -241,7 +241,7 @@ With Set 10 we gained access to Bad End Dragger, one of the most insane skills i
 
 This is very very good. Interesting to note the clashing with Abyss:Final, who has a stronger top-half, but falters in the bottom half. It means that Abyss:Final is a strong gust that will force that last damage through, while Blood:Final is battering ram to strip all of your opponent’s remaining health. Bloody:Final is slightly better for those 5 to 3 damage match-ups as a comeback mechanism, but Abyss makes your death at 5 inevitable.
 
-###Re-standing 101
+### Re-standing 101
 
 So now we are into the realm of re-standing vanguards (Or rather, multiple vanguard attacks). They have the benefit of always forcing an additional stage of their calculated values, gaining additional power from break-rides, fizzing the effectiveness of counter triggers, and multiple twin drives. Let’s start with the often called lamest one of the bunch — Dragonic Descendant and its 3v/4v/2/2 rage:
 
@@ -332,15 +332,15 @@ So what do you get, when you have a field of Samurais who gain 15000 when you at
 
 <a name="back"></a>
 
-######(1) 16000
+#### ## (1) 16000
 
-######(2) 16000
+#### ## (2) 16000
 
-#####(3) 45000
+#### #(3) 45000
 
-####(4) 52000
+#### (4) 52000
 
-###(5) 57000
+### (5) 57000
 
 ##(6) 73000
 
@@ -443,7 +443,7 @@ Let’s do a massive reference right here to show you that nothing here even com
 
 ---------------------------------------------------------------------------------
 
-###Conclusion, The TRUE king of vanguard overkill
+### Conclusion, The TRUE king of vanguard overkill
 
 Thought this just an oversight? That’s because it probably is. But you know Bushiroad, they can’t let their pet clans get overshadowed by Mega Drill equipped Gurrens. So they snuck a small combo in Gold Paladin that is able to loop into itself infinitely. Basically it requires a Liberator Margaux, Blaster Blade Liberator, BBL’s unflipper, and a plusser every time you superior call. The details have just been released but you’ll have to wait for my optimization of this build (and the others I’ve talked about in this article). But for now: ![c-c-combo breaker](/cfvg/image/ccombo.png) <i class="fa fa-stop"></i>
 

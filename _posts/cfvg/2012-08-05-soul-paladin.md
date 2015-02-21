@@ -5,7 +5,7 @@ categories: cfvg
 comment: true
 ---
 
-#### Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
+####  Woah there! This is a REALLY outdated post. For more current and accurate articles visit my [main page](/cfvg).
 
 <p>The soul was presented in a new light when Soul Saver Dragon went into the scene. With an explosion of power that seemed relatively easy, she became a hallmark in many RP decks. Even in RP&#8217;s meta, SSD is a final turn option with great opportunity. However, there were plenty of other options other then SSD.</p>
 <p>A neat alternative to the classic RP formula existed, and so soul paladins were created.</p>
