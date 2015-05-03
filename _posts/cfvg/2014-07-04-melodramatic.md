@@ -7,7 +7,7 @@ comment: true
 
 <a name="nine"></a>
 
-### It’s over 9000(0)! <a href="back">*</a>
+### It’s over 9000(0)! <a href="#back">*</a>
 
 [tl;dr – The data](/cfvg/melodramatic/#tldr)
 
@@ -332,21 +332,21 @@ So what do you get, when you have a field of Samurais who gain 15000 when you at
 
 <a name="back"></a>
 
-#### ## (1) 16000
+###### (1) 16000
 
-#### ## (2) 16000
+###### (2) 16000
 
-#### #(3) 45000
+#####(3) 45000
 
 #### (4) 52000
 
 ### (5) 57000
 
-##(6) 73000
+## (6) 73000
 
-##**(7) 87000**
+## **(7) 87000**
 
-#**(8) <a href="#nine">92000</a>**
+# **(8) <a href="#nine">92000</a>**
 
 Have some fun with 2/2/8v/9/9/13v/15/15 and you get
 

@@ -47,7 +47,7 @@ Even in high level tournaments or matches, professionals constantly enter this d
 
 It is rare to see optimal players make it to the top in any tournament, and this is because these players are so entrenched in the game mechanics and theory they don't see the human interaction and fail to take advantage of plays that would yield in victory. If you know a person always tends to paper, why are you falling on an optimal strategy when the "best" strategy is actually to play scissors? Is it because they know you know they prefer paper and will pick rock just for that one special time?[^3] Optimal players avoid risk and this is one of the points that sets them back from winning tournaments. They aren't planning to win, they are concerned with not losing.
 
-[^2]: This term was coined by Frank Lantz, article found on [his blog](gamedesignadvance.com/?p=2346). For stuff about RPS, I used [Sirlin](www.sirlin.net/articles/solvability) as a leaping point.
+[^2]: This term was coined by Frank Lantz, article found on [his blog](http://www.gamedesignadvance.com/?p=2346). For stuff about RPS, I used [Sirlin](http://www.sirlin.net/articles/solvability) as a leaping point.
 
 [^3]: Or maybe you knows he knows you know his exploit and that he is going to change it so you decide to pick paper to beat his rock, but of course he is actually disguised as Frank and he knows you know he knows you knows his exploit and so he picks scissors to bite your ass. [Sharkception](http://img1.wikia.nocookie.net/__cb20121224160833/cardfight/images/c/c6/BT06-061EN_C.jpg).
 
@@ -134,4 +134,4 @@ Take the previous scenario, and change one of the following: Either you have a g
 
 A bit of math churns out: 5 * 19/49-5 * 30/49 = -1.122
 
-And against a full -5, it hurts to consider dropping it. The sub-optimal clause is described in the first example, where you aim to reduce entropy in order to secure a quicker game. I believe you can work out the kinks in the solution given the former examples.
+And against a full -5, it hurts to consider dropping it. The sub-optimal clause is described in the first example, where you aim to reduce entropy in order to secure a quicker game. I believe you can work out the kinks in the solution given the former examples. <i class="fa fa-stop"></i>
